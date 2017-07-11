@@ -42,7 +42,7 @@ public class RGB2Grayscale {
 	            int green = (int)c.getGreen();
 	            int blue = (int)c.getBlue();
 	            int average = (red + green + blue)/3;
-	            Color gray = new Color(average, average, average);
+	            Color gray = new Color(average, average, average); //algo
 	            img.setRGB(j, i, gray.getRGB());
 			}
 		}
